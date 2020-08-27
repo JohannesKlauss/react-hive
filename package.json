@@ -38,10 +38,21 @@
   "name": "react-hive",
   "author": "Johannes Klauss",
   "description": "An experiment, trying to combine ideas of recoil and relay",
-  "keywords": ["graphql", "react", "recoil", "state", "state-management", "typescript", "state-persistence"],
+  "keywords": [
+    "graphql",
+    "react",
+    "recoil",
+    "state",
+    "state-management",
+    "typescript",
+    "state-persistence"
+  ],
   "module": "dist/react-hive.esm.js",
   "devDependencies": {
     "@babel/core": "^7.11.4",
+    "@graphql-codegen/cli": "^1.17.8",
+    "@graphql-codegen/typescript": "^1.17.9",
+    "@graphql-codegen/typescript-operations": "^1.17.8",
     "@storybook/addon-actions": "^6.0.19",
     "@storybook/addon-docs": "^6.0.19",
     "@storybook/addon-info": "^5.3.20",
