@@ -50,9 +50,9 @@
   "module": "dist/react-hive.esm.js",
   "devDependencies": {
     "@babel/core": "7.11.4",
-    "@graphql-codegen/cli": "^1.17.8",
-    "@graphql-codegen/typescript": "^1.17.9",
-    "@graphql-codegen/typescript-operations": "^1.17.8",
+    "@graphql-codegen/cli": "1.17.8",
+    "@graphql-codegen/typescript": "1.17.9",
+    "@graphql-codegen/typescript-operations": "1.17.8",
     "@storybook/addon-actions": "6.0.20",
     "@storybook/addon-docs": "6.0.20",
     "@storybook/addon-info": "5.3.21",
