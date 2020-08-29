@@ -19,14 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d63f75-e679-4c73-b311-12cc25c93d47" name="Default Changelist" comment="Update yarn lock">
+    <list default="true" id="c5d63f75-e679-4c73-b311-12cc25c93d47" name="Default Changelist" comment="first experiments">
+      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-codegen.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HiveRoot.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiveExchange.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/graphql/user.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/useHive.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/blah.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="GraphQL File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +72,36 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="gql-codegen" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gql-codegen" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.gql-codegen" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +114,7 @@
       <workItem from="1598548357430" duration="370000" />
       <workItem from="1598548804979" duration="1739000" />
       <workItem from="1598690295446" duration="8000" />
-      <workItem from="1598709235940" duration="255000" />
+      <workItem from="1598709235940" duration="11089000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1598549369589</created>
@@ -87,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598550311573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Use SWR in the background">
+      <created>1598710105606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598710105606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,9 +166,31 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added graphql codegen" />
     <MESSAGE value="Update yarn lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update yarn lock" />
+    <MESSAGE value="Use SWR in the background" />
+    <MESSAGE value="first experiments" />
+    <option name="LAST_COMMIT_MESSAGE" value="first experiments" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598710124611">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1598710124611" />
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom" timestamp="1598721289433">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1771" height="245" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1598721289433" />
+    <state width="1771" height="245" key="GridCell.Tab.0.center" timestamp="1598721289432">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1771" height="245" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1598721289432" />
+    <state width="1771" height="245" key="GridCell.Tab.0.left" timestamp="1598721289431">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1771" height="245" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1598721289431" />
+    <state width="1771" height="245" key="GridCell.Tab.0.right" timestamp="1598721289432">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1771" height="245" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1598721289432" />
     <state x="180" y="122" key="MergeDialog" timestamp="1598550230681">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -120,9 +199,17 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="534" y="340" key="MultipleFileMergeDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1598550233407" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1598550313051">
+    <state x="397" y="210" key="SettingsEditor" timestamp="1598710291937">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1598550313051" />
+    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1598710291937" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1598710108054">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1598710108054" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1598717731386">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1598717731386" />
   </component>
 </project>

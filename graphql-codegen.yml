@@ -1,0 +1,15 @@
+schema:
+  - "https://graphqlzero.almansi.me/api"
+documents: "./test/**/*.graphql"
+hooks:
+  afterOneFileWrite:
+    - prettier --write
+generates:
+  src/graphql/index.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-urql"
+    config:
+      withComponent: false
+      withHooks: true

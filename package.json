@@ -14,21 +14,20 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
+    "test": "jest",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "gql-codegen": "graphql-codegen --config graphql-codegen.yml"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "recoil": ">=0.0.10",
-    "swr": ">=0.3"
+    "react": ">=16.8",
+    "urql": ">=1.10"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
+  "dependencies": {
+    "@urql/core": "1.12.3",
+    "recoil": "0.0.10"
   },
   "prettier": {
     "printWidth": 80,
@@ -51,29 +50,38 @@
   "module": "dist/react-hive.esm.js",
   "devDependencies": {
     "@babel/core": "7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
     "@graphql-codegen/cli": "1.17.8",
     "@graphql-codegen/typescript": "1.17.9",
     "@graphql-codegen/typescript-operations": "1.17.8",
+    "@graphql-codegen/typescript-urql": "^2.0.1",
     "@storybook/addon-actions": "6.0.20",
     "@storybook/addon-docs": "6.0.20",
     "@storybook/addon-info": "5.3.21",
     "@storybook/addon-links": "6.0.20",
     "@storybook/addons": "6.0.20",
     "@storybook/react": "6.0.20",
+    "@testing-library/react-hooks": "^3.4.1",
     "@types/react": "16.9.48",
     "@types/react-dom": "16.9.8",
+    "babel-jest": "^26.3.0",
     "babel-loader": "8.1.0",
     "graphql": "15.3.0",
+    "graphql-request": "3.0.0",
     "husky": "4.2.5",
+    "isomorphic-unfetch": "3.0.0",
+    "jest": "^26.4.2",
     "react": "16.13.1",
     "react-docgen-typescript-loader": "3.7.2",
     "react-dom": "16.13.1",
     "react-is": "16.13.1",
-    "recoil": "0.0.10",
-    "swr": "0.3.1",
+    "react-test-renderer": "^16.13.1",
     "ts-loader": "8.0.3",
     "tsdx": "0.13.3",
     "tslib": "2.0.1",
-    "typescript": "4.0.2"
+    "typescript": "4.0.2",
+    "urql": "^1.10.0"
   }
 }
