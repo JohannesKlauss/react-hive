@@ -70,7 +70,7 @@
     "babel-loader": "8.1.0",
     "graphql": "15.3.0",
     "graphql-request": "3.1.0",
-    "husky": "4.2.5",
+    "husky": "4.3.0",
     "isomorphic-unfetch": "3.0.0",
     "jest": "26.4.2",
     "react": "16.13.1",
