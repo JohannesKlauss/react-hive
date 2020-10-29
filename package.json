@@ -26,7 +26,7 @@
     "urql": ">=1.10"
   },
   "dependencies": {
-    "@urql/core": "1.13.1",
+    "@urql/core": "1.14.1",
     "recoil": "0.0.13"
   },
   "prettier": {
