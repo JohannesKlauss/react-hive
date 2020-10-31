@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@urql/core": "1.14.1",
-    "recoil": "0.1.1"
+    "recoil": "0.1.2"
   },
   "prettier": {
     "printWidth": 80,
