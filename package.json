@@ -58,7 +58,7 @@
     "@graphql-codegen/typescript-operations": "1.17.12",
     "@graphql-codegen/typescript-urql": "2.0.3",
     "@storybook/addon-actions": "6.1.7",
-    "@storybook/addon-docs": "6.1.6",
+    "@storybook/addon-docs": "6.1.7",
     "@storybook/addon-info": "5.3.21",
     "@storybook/addon-links": "6.1.7",
     "@storybook/addons": "6.1.7",
